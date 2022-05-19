@@ -21,12 +21,12 @@ body{
   transform: rotate(-45deg);
   animation:love 3s infinite 1s;
 }
-/* @keyframes love{
+@keyframes love{
   50%{
      transform: scale(1.2) rotate(-45deg);
    }
   
-} */
+}
 .love::before{
   position:absolute;
   content: '';
