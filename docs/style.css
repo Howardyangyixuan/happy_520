@@ -21,12 +21,12 @@ body{
   transform: rotate(-45deg);
   animation:love 3s infinite 1s;
 }
-@keyframes love{
+/* @keyframes love{
   50%{
      transform: scale(1.2) rotate(-45deg);
    }
   
-}
+} */
 .love::before{
   position:absolute;
   content: '';
@@ -72,7 +72,7 @@ body{
   width: 125px;
   height: 125px;
   left: 0px;
-  top:-75px;
+  top:-65px;
 }
 .love-1::after{
   position:absolute;
@@ -82,7 +82,7 @@ body{
   border-radius: 50%;
   width: 125px;
   height: 125px;
-  left: 75px;
+  left: 65px;
   top:0px;
 }
 
@@ -108,7 +108,7 @@ body{
   width: 62.5px;
   height: 62.5px;
   left: 0px;
-  top:-37.5px;
+  top:-35px;
 }
 .love-2::after{
   position:absolute;
@@ -118,6 +118,6 @@ body{
   border-radius: 50%;
   width: 62.5px;
   height: 62.5px;
-  left: 37.5px;
+  left: 35px;
   top:0px;
 }
